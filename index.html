@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!--Linking to external stylesheet-->
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Added a title indicating this is a portfolio -->
+    <title>Portfolio for D.Hyler</title>
+</head>
+
+<body>
+    <!-- adding semantic elements beginning here with "header"-->
+    <header class="header">
+        <h1>D.Hyler Portfolio</h1>
+        <nav>
+            <!-- using a list for header links -->
+            <ul>
+                <!-- Links on the following lines work and are written correctly, but currently do not have anywhere to link to so we will direct them to difference sections of the page -->
+                <li>
+                    <a href="index.html#workexamples1">Github Projects</a>
+                </li>
+                <li>
+                    <a href="index.html#workexamples2">GitLab Assignments</a>
+                </li>
+                <li>
+                    <a href="index.html#workexamples2">Other</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main content begins placing three main boxes inside a single divider in order to display our three "sections" for portfolio content previews, as well as a footer below that, below it -->
+   
+        <div class="three boxes">
+           <main class="content">
+        <section class="website-design">
+        <a href="https://github.com/davehyler"><img src="assets/images/search.png"  alt="Websites" class="float-left" /></a>
+           <a href="https://github.com/davehyler"><h3>Website Design</h3></a>
+            <p>
+                <a href = "https://github.com/davehyler">This is our section to display our web design. Rather than increase the font size to some unseemly looking large format, we'll simply repeat this line over and over again to fill the staggering size boxes that diminish to the right until we can afford to hire a technical writer to match the description within a set length of words. This is our section to display our web design. Rather than increase the font size to some unseemly looking large format, we'll simply repeat this line over and over again to fill the staggering size boxes that diminish to the right until we can afford to hire a technical writer to match the description within a set length of words.</a>
+            </p>
+        </section>
+        <main id="desktop-mobile-applications" class="desktop-mobile-applications">
+            <a href = "https://gitlab.com"><img src="assets/images/applications.png" alt="Applications" class="float-right" /></a>
+            <a href = "https://gitlab.com"><h3>Desktop and Mobile</h3></a>
+            <p>
+                <a href = "https://gitlab.com">Examples of both Desktop and Mobile Applications can be found here. Desktop section will include executables (and their source code for) for Windows, Linux, and Mac. Mobile Applications with include Apple's iOS and Android. RIP BlackBerry. Examples of both Desktop and Mobile Applications can be found here. Desktop section will include executables (and their source code for) for Windows, Linux, and Mac. Mobile Applications with include Apple's iOS and Android. RIP BlackBerry.</a>
+            </p>
+        </main>
+        <main id="other" class="other">
+            <a href = "https://www.etsy.com/fi-en/listing/1129349019/conjoined-triangle-of-success-11x14"><img src="assets/images/triangles.jpg" alt="Other" class="float-left" /></a>
+            <a href = "https://www.etsy.com/fi-en/listing/1129349019/conjoined-triangle-of-success-11x14"><h3>Other Projects</h3></a>
+            <p>
+                <a href = "https://www.etsy.com/fi-en/listing/1129349019/conjoined-triangle-of-success-11x14">This is where all other content will be held. Hardware, accessories, and unfinished designs will go here. This is where all other content will be held. Hardware, accessories, and unfinished designs will go here. In the meantime, until one of those exists, we'll just leave a link here to an inspirational piece of artwork for the office. </a>
+            </p>
+        </main>
+    </main>
+</div>
+
+
+    <div class="workexamples1" id="workexamples1">
+       <p><a href="https://github.com/davehyler"><h2>GitHub Projects</h2></a></p>
+    </div>
+    <div class="workexamples2" id="workexamples2">
+        <p><a href="https://gitlab"><h2>GitLab Assignments</h2></a></p>
+     </div>
+     <div class="workexamples3" id="workexamples3">
+        <p><a href="https://www.etsy.com/fi-en/listing/1129349019/conjoined-triangle-of-success-11x14"><h2>Other</h2></a></p>
+     </div>
+
+        
+    
+<!-- footer section correct but missing the footer tag surrounding the divisions, adding "footer" semantic element -->
+<footer>
+    <div class="footer">
+        <h1>Site for April 12th Assignment by D.Hyler</h1>
+    </div>
+</footer>
+</body>
+
+</html>

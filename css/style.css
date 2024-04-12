@@ -1,0 +1,200 @@
+/* defining spacing elements to be viewed the same across all devices */
+:root {
+    --purple: #360155;
+    --blue: #0d1634;
+    --white: #ffffff;
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* begin the color scheme, style, and defined values for the body of the website */
+body {
+    background-color: var(--blue);
+}
+/* definining all elements (ie font) that will exist within the header */
+.header {
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--purple);
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Lowering default font size of h3 to sign additional changes at bottom of footer */
+h3 {
+    line-height: 42px;
+    word-spacing: 200%;
+    font-size: 26px;
+    text-align: center;
+}
+
+.header h1 .websitedesign {
+    color: var(--purple);
+}
+
+/* alter header tags to nav */
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: other'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* defining the style of links (ie, to avoid a default "blue underline" style that often shows) */
+a {
+    color: var(--white)
+    text-decoration: none;
+}
+
+/* font size of elements within the P tags */
+p {
+    font-size: 16px;
+}
+
+.float-top {
+    margin-top: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    position:center
+}
+
+.website-design {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 700px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* not using variable color as this instance will ONLY be used ONCE. */
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.desktop-mobile-applications {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 600px;
+    font-family: other'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* not using variable color as this instance will ONLY be used ONCE. Yes... it is SLIGHTLY different than the last (on purpose) */
+    background-color: #145780;
+    color: #ffffff;
+}
+
+.other {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    font-family: other'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* single use color again, see above colors for further commentary across entire page usage */
+    background-color: #1c3444;
+    color: #ffffff;
+}
+
+.website-design img {
+    max-height: 200px;
+}
+
+.desktop-mobile-applications img {
+    max-height: 200px;
+}
+
+.other img {
+    max-height: 200px;
+}
+
+.website-design h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.desktop-mobile-applications h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.other h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.workexamples1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: other'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    /* background color should not be necessary when using fullscreen image for the divider... but in case something breaks, this will match the the section to the background */
+    background-color: var(--blue);
+    color: #ffffff;
+    background-image: url(section-heroes/github.png);
+}
+.workexamples2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-size: 80px;
+    font-family: other'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background color should not be necessary when using fullscreen image for the divider... but in case something breaks, this will match the the section to the background */
+    background-color: var(--blue);
+    color: #ffffff;
+    background-image: url(section-heroes/gitlab.png);
+}
+.workexamples3 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-size: 80px;
+    font-family: other'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background color should not be necessary when using fullscreen image for the divider... but in case something breaks, this will match the the section to the background */
+    background-color: var(--blue);
+    color: #ffffff;
+    background-image: url(section-heroes/other.png);
+}
+
+
+
+/* begin footer styling and definitions (font/alignment/padding */
+.footer {
+    color: #ffffff;
+    padding: 42px;
+    clear: both;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
